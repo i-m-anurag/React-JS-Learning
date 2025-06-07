@@ -1,3 +1,5 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
 const div = React.createElement("div", { id: "div1" },
     React.createElement(
         "div",
@@ -12,4 +14,4 @@ const div = React.createElement("div", { id: "div1" },
 const heading = React.createElement("h1", { id: 'heading' }, "Hello world !!");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log(div)
-root.render(div);
+root.render(heading);
